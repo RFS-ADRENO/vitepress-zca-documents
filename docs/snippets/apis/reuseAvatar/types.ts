@@ -1,0 +1,1 @@
+export type ReuseAvatarResponse = null;

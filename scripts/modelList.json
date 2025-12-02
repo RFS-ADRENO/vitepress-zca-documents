@@ -1,0 +1,22 @@
+[
+    "Attachment",
+    "AutoReply",
+    "Board",
+    "Catalog",
+    "DeliveredMessage",
+    "Enum",
+    "FriendEvent",
+    "Group",
+    "GroupEvent",
+    "Label",
+    "Message",
+    "ProductCatalog",
+    "QuickMessage",
+    "Reaction",
+    "Reminder",
+    "SeenMessage",
+    "Typing",
+    "Undo",
+    "User",
+    "ZBusiness"
+]
