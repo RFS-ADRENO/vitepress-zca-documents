@@ -2,7 +2,7 @@
 
 ### Code mẫu
 
-1. Xây dựng phương thức xử lý hình ảnh, tham khảo thêm tại [ImageMetadataGetter](/get-started/upgrade-to-v2#imagemetadatagetter)
+1. Xây dựng phương thức xử lý hình ảnh, tham khảo thêm tại [ImageMetadataGetter](../upgrade-to-v2#imagemetadatagetter)
 
 ::: code-group
 
