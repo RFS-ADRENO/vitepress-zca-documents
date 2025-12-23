@@ -1,5 +1,5 @@
 {
-    "name": "zca-js-documents",
+    "name": "vitepress-zca-documents",
     "compatibility_date": "2025-12-23",
     "assets": {
         "directory": "./docs/.vitepress/dist"
