@@ -7,6 +7,7 @@ export default defineConfig({
     rewrites: {
         "pages/:rest*": ":rest*",
     },
+    head: [["link", { rel: "icon", type: "image/svg+xml", href: "/logo.svg" }]],
     markdown: {
         config(md) {
             md.use(groupIconMdPlugin);
