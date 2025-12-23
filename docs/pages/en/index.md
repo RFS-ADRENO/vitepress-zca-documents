@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /markdown-examples
+      link: /en/get-started/introduction
     - theme: alt
       text: API Reference
-      link: /api-examples
+      link: /en/apis/acceptFriendRequest.md
 
 features:
   - title: Easy Integration

@@ -93,7 +93,7 @@ export default defineConfig({
                         text: "🧩 MODELS",
                         items: loadDir("models", "vi"),
                         base: "/vi/models/",
-                    }
+                    },
                 ],
             },
         },
@@ -103,16 +103,70 @@ export default defineConfig({
             themeConfig: {
                 nav: [
                     { text: "Home", link: "/en/" },
-                    { text: "Examples", link: "/en/markdown-examples" },
+                    { text: "Get Started", link: "/en/get-started/introduction" },
                 ],
 
                 sidebar: [
                     {
-                        text: "Examples",
+                        text: "✨ GET STARTED",
                         items: [
-                            { text: "Markdown Examples", link: "/markdown-examples" },
-                            { text: "Runtime API Examples", link: "/api-examples" },
+                            { text: "Introduction", link: "/introduction" },
+                            { text: "Upgrade to v2", link: "/upgrade-to-v2" },
+                            {
+                                text: "Examples",
+                                items: [
+                                    { text: "Echo bot", link: "/echo-bot" },
+                                    {
+                                        text: "Welcome bot",
+                                        link: "/welcome-bot",
+                                    },
+                                ],
+                                base: "/en/get-started/examples/",
+                            },
                         ],
+                        base: "/en/get-started/",
+                    },
+                    {
+                        text: "🔑 LOGIN",
+                        items: [
+                            {
+                                text: "Login with Cookie",
+                                link: "/login-with-cookie",
+                            },
+                            {
+                                text: "Login with QRCode",
+                                link: "/login-with-qrcode",
+                            },
+                            {
+                                text: "Login with Multiple Accounts",
+                                link: "/multi-account-login",
+                            },
+                            {
+                                text: "Using Proxy",
+                                link: "/using-proxy",
+                            },
+                        ],
+                        base: "/en/auth/",
+                    },
+                    {
+                        text: "🛠️ API",
+                        items: loadDir("apis", "en"),
+                        base: "/en/apis/",
+                    },
+                    {
+                        text: "📡 LISTENER",
+                        items: [
+                            { text: "message", link: "/message" },
+                            { text: "reaction", link: "/reaction" },
+                            { text: "undo", link: "/undo" },
+                            { text: "group_event", link: "/group_event" },
+                        ],
+                        base: "/en/listeners/",
+                    },
+                    {
+                        text: "🧩 MODELS",
+                        items: loadDir("models", "en"),
+                        base: "/en/models/",
                     },
                 ],
             },

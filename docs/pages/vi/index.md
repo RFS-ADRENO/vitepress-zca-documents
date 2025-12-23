@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: Bắt Đầu
-      link: /get-started/introduction
+      link: /vi/get-started/introduction
     - theme: alt
       text: Tài Liệu API
-      link: /apis
+      link: /vi/apis/acceptFriendRequest.md
 
 features:
   - title: Tích Hợp Dễ Dàng
